@@ -1,0 +1,21 @@
+% go tool pprof cpu.prof
+Type: cpu
+Time: Aug 24, 2020 at 2:56pm (EDT)
+Duration: 47.41s, Total samples = 45.83s (96.67%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 39.80s, 86.84% of 45.83s total
+Dropped 171 nodes (cum <= 0.23s)
+Showing top 10 nodes out of 81
+      flat  flat%   sum%        cum   cum%
+    11.04s 24.09% 24.09%     32.83s 71.63%  github.com/antlr/antlr4/runtime/Go/antlr.(*BaseSingletonPredictionContext).hash
+    10.48s 22.87% 46.96%     12.49s 27.25%  github.com/antlr/antlr4/runtime/Go/antlr.murmurUpdate
+     9.36s 20.42% 67.38%      9.36s 20.42%  github.com/antlr/antlr4/runtime/Go/antlr.murmurFinish
+     3.92s  8.55% 75.93%      3.92s  8.55%  runtime.madvise
+     1.96s  4.28% 80.21%      1.96s  4.28%  github.com/antlr/antlr4/runtime/Go/antlr.rotateLeft64 (inline)
+     0.83s  1.81% 82.02%     38.19s 83.33%  github.com/antlr/antlr4/runtime/Go/antlr.(*ParserATNSimulator).closureWork
+     0.79s  1.72% 83.74%      0.79s  1.72%  runtime.pthread_cond_wait
+     0.51s  1.11% 84.86%      0.51s  1.11%  runtime.kevent
+     0.48s  1.05% 85.90%      1.69s  3.69%  runtime.mallocgc
+     0.43s  0.94% 86.84%     32.37s 70.63%  github.com/antlr/antlr4/runtime/Go/antlr.mergeSingletons
+(pprof)

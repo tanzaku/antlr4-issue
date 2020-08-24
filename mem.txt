@@ -1,0 +1,20 @@
+% go tool pprof mem.prof
+Type: alloc_space
+Time: Aug 24, 2020 at 2:57pm (EDT)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top
+Showing nodes accounting for 2343.65MB, 99.20% of 2362.54MB total
+Dropped 22 nodes (cum <= 11.81MB)
+Showing top 10 nodes out of 31
+      flat  flat%   sum%        cum   cum%
+ 1960.15MB 82.97% 82.97%  1960.15MB 82.97%  github.com/antlr/antlr4/runtime/Go/antlr.NewBaseATNConfig
+  126.50MB  5.35% 88.32%      159MB  6.73%  github.com/antlr/antlr4/runtime/Go/antlr.NewBaseSingletonPredictionContext
+  107.01MB  4.53% 92.85%   107.01MB  4.53%  github.com/antlr/antlr4/runtime/Go/antlr.NewBaseATNConfig5 (inline)
+   85.45MB  3.62% 96.47%    85.45MB  3.62%  github.com/antlr/antlr4/runtime/Go/antlr.(*Set).add
+   32.50MB  1.38% 97.84%    32.50MB  1.38%  github.com/antlr/antlr4/runtime/Go/antlr.NewBasePredictionContext (inline)
+   12.50MB  0.53% 98.37%    12.50MB  0.53%  github.com/antlr/antlr4/runtime/Go/antlr.(*BitSet).add (inline)
+   10.03MB  0.42% 98.80%    95.48MB  4.04%  github.com/antlr/antlr4/runtime/Go/antlr.(*BaseATNConfigSet).Add
+    9.51MB   0.4% 99.20%    32.51MB  1.38%  github.com/antlr/antlr4/runtime/Go/antlr.PredictionModegetConflictingAltSubsets
+         0     0% 99.20%   193.20MB  8.18%  command-line-arguments_test.BenchmarkSlowQuery
+         0     0% 99.20%   325.73MB 13.79%  github.com/antlr/antlr4/runtime/Go/antlr.(*ParserATNSimulator).AdaptivePredict
+(pprof)
