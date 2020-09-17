@@ -1,2 +1,6 @@
-github.com/antlr/antlr4 v0.0.0-20200820155224-be881fa6b91d h1:OE3kzLBpy7pOJEzE55j9sdgrSilUPzzj++FWvp1cmIs=
-github.com/antlr/antlr4 v0.0.0-20200820155224-be881fa6b91d/go.mod h1:T7PbCXFs94rrTttyxjbyT5+/1V8T2TYDejxUfHJjw1Y=
+github.com/tanzaku/antlr4 v0.0.0-20200820155224-be881fa6b91d h1:OE3kzLBpy7pOJEzE55j9sdgrSilUPzzj++FWvp1cmIs=
+github.com/tanzaku/antlr4 v0.0.0-20200820155224-be881fa6b91d/go.mod h1:T7PbCXFs94rrTttyxjbyT5+/1V8T2TYDejxUfHJjw1Y=
+github.com/tanzaku/antlr4 v0.0.0-20200915201312-e73f72be7355 h1:4QGS7p0a6SDij+FheX1Sd+Z9klFcFGXJoDiKUSu4fyk=
+github.com/tanzaku/antlr4 v0.0.0-20200915201312-e73f72be7355/go.mod h1:T7PbCXFs94rrTttyxjbyT5+/1V8T2TYDejxUfHJjw1Y=
+github.com/tanzaku/antlr4 v0.0.0-20200820155224-be881fa6b91d h1:JfDE54AMmBeGIkUlJD3ZQ+/AWY9MySJOopF7M33gRZY=
+github.com/tanzaku/antlr4 v0.0.0-20200820155224-be881fa6b91d/go.mod h1:SYEUnVV1Zv/LhpONAwjNqvGctM5eEwUtnK2MN8D7Fsg=
