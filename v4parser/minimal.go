@@ -1,7 +1,7 @@
 package v4parser
 
 import (
-	"github.com/antlr/antlr4/runtime/Go/antlr"
+	"github.com/tanzaku/antlr4/runtime/Go/antlr"
 )
 
 func WalkTree(query string) {

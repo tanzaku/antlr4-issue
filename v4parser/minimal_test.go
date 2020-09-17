@@ -3,7 +3,7 @@ package v4parser_test
 import (
 	"testing"
 
-	"github.com/jlj5aj/antlr4-issue/v4parser"
+	"github.com/tanzaku/antlr4-issue/v4parser"
 )
 
 func BenchmarkSlowQuery(b *testing.B) {
